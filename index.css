@@ -7,11 +7,11 @@ text-align: center; padding: 0;
 margin: 0;
 background-color: #d5d9dc;}
 
-na li {font-size: 1.2em;
+nav li {font-size: 1.2em;
 line-height: 40px;
 height: 40px;
 display: inline-block;
 margin: 2.5%;}
 
-nav a {text-decoration: none; color: #d5d9dc;
+nav a {text-decoration: none; color: #ac117b;
 display:block;}
