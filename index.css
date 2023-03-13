@@ -2,7 +2,12 @@ h1 {color: rgb(2, 158, 249); text-align: center; font-family: 'Segoe UI', Tahoma
 
 h2 {color: #ac117b;}
 
-body {background-color: #e4ecee; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body {background-color: #ffffff; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(https://www.nme.com/wp-content/uploads/2022/10/Central-Cee-by-Jimmy-Fontaine-1392x884.jpg);
+    background-repeat: no-repeat;https
+    background-size: contain;
+background-position: center;}
 
 nav ul {list-style: none;
 text-align: center; padding: 0;
@@ -58,3 +63,7 @@ footer > span {color: rgb(2, 158, 249);
 }
 
 .text-uppercase {text-transform: uppercase;}
+
+#tour-dates {background-color: #00ddff;
+    position: relative;
+	z-index: -1;}
