@@ -1,108 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Central Cee Website
 
-Welcome USER_NAME,
+The 'Central Cee' website is a website made for a musician called Central Cee. This was made for the user to be able to keep up to date with their favourite musician's upcoming tours, music videos and exclusive content. For the organisation or 'Central C' this is a way for the musician to have a closer bond with the users or 'music fans' as well as creating a database so he can keep in touch with his users.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Featues 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- Navigation bar at the top of the page where I have also managed to nest my header to give the website a cleaner look. As well as this each navigation link takes you to a different page. I used white text on a black background so the text stands out along with this when hovering over the navigation links the text turns red to stay in line with the colour theme of the website.
 
-## Gitpod Reminders
+- Input email and subscribe button allows the user to be able to subscribe to the website for exclusive content from 'Central Cee'. I added a placeholder to help the user understand what information is needed from them also as the type input is 'email' form the user will also be alerted if they entered what is deemed to be an invalid email address.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Audio on the landing page is also available to the user and has been set on muted autoplay so the user has the choice wether they want to listen to Central Cee's music at that time or not.
 
-`python3 -m http.server`
+- Table displaying the artist Central Cee's european tour it also includes information such as the city, venue and the date of the shows.
 
-A blue button should appear to click: _Make Public_,
+- Footer displaying also social media links for Central Cee. One click will open a new tab and take you to the artists social media pages. Just like the navigation bar there is a hover element which makes the text turn red when being hovered over sticking to the styling colours of the website.
 
-Another blue button should appear to click: _Open Browser_.
+- On the about page there is information which gives the user an insight in to the musician Central Cee's life.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- On the music video page theres an embedded youtube video via iframe which allows the user to stay up to date with the musicians new music videos.
 
-A blue button should appear to click: _Make Public_,
+- On the contact page I have added a text area form which allows theuse to write a personal message to the musician Central Cee.
 
-Another blue button should appear to click: _Open Browser_.
+## Validator Testing
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+HTML - I ran my html code and I had no errors using the official w3C validator
 
-To log into the Heroku toolbelt CLI:
+CSS - I ran my css code and I had no errors using the official jigsaw validator.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Unfixed Bugs
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- On the music video page I am still trying to play with the code and work out how I can wrap the text arround the embedded video at the moment it doesnt alow me to adjust the screen.
 
-------
+## Deployment
 
-## Release History
+The live link can be found here - https://amyusuff1.github.io/Central-cee/
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Content
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The text for the about page was taken from Wikipedia https://en.wikipedia.org/wiki/Central_Cee
+The text for the music page was taken from fader article https://www.thefader.com/2022/07/22/song-you-need-central-cee-doja
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
+The icons in the footer were taken from Font Awesome
+Media
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The audio used for the landing page was taken from here https://westsidemusicblog.net/wp-content/uploads/2022/10/Central-Cee-One-Up.mp3
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The photo used for the background was taken from here https://www.nme.com/wp-content/uploads/2022/10/Central-Cee-by-Jimmy-Fontaine-1392x884.jpg
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The images used from the about page was taken from here https://thegarnettereport.com/wp-content/uploads/2022/12/38050f31-1f55-778a-3c7d-6ad0fb72c96f.jpg
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+sample code was taken and edited from the coffeehouse project majority was done from what I have been learning.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
