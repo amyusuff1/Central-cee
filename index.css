@@ -10,6 +10,12 @@ h2,h3 {color: #ffffff;
     background-color: #ff0000;
 }
 
+h4 {color: rgb(253, 253, 253); 
+    text-align: left; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: rgba(0, 0, 0, 0.417);
+}
+
 body {background-color: #000000; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url(https://www.nme.com/wp-content/uploads/2022/10/Central-Cee-by-Jimmy-Fontaine-1392x884.jpg);
