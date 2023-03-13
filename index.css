@@ -63,7 +63,7 @@ footer > a {
 	text-decoration: none;
 	padding: 0;
     margin-bottom: auto;
-	font-size: 1.25rem;
+	font-size: 1rem;
     display: inline-block
 }
 
@@ -74,7 +74,8 @@ footer > p { color: rgb(255, 255, 255);
 }
 
 footer > span {color: rgb(255, 255, 255); 
-    font-size: 1.25rem;
+    font-weight: bold; 
+    font-size: 1rem;
 }
 
 .text-uppercase {text-transform: uppercase;}
