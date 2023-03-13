@@ -36,10 +36,6 @@ margin: 2.5%;
 nav a {text-decoration: none; color: #ffffff;
 display:block;font-size: 1.5rem}
 
-#cench1 {float: left;
-    width: 35%;
-    height: 50%;
-    padding: 5px;}
 
 input {background-color:rgb(255, 255, 255);; color: rgb(0, 0, 0);}
 
@@ -88,3 +84,21 @@ footer > span {color: rgb(255, 255, 255);
 .center {margin-left: auto;
     margin-right: auto;
   }
+
+section {background-color: #ffffff;
+    display: inline-block;
+    width: 750px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    }
+
+#cench1 {float: right;
+    width: 35%;
+    height: 50%;
+    padding: 80px;}
+
+#cench2 {float: bottom-left;
+        width: 35%;
+        height: 50%;
+        padding: 60px;}
