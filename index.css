@@ -28,7 +28,9 @@ body {background-color: #000000;
     background: url(https://www.nme.com/wp-content/uploads/2022/10/Central-Cee-by-Jimmy-Fontaine-1392x884.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
-background-position: center;}
+background-position: center;
+background-attachment:fixed;}
+
 
 nav ul {list-style: none;
 text-align: center; padding: 0;
@@ -105,19 +107,18 @@ footer > span {color: rgb(255, 255, 255);
   }
 
 section {background-color: #ffffff;
-    display: inline-block;
-    width: 750px;
-    height: 300px;
-    padding: 5px;
-    border: 1px solid rgb(0, 0, 0);
-    }
+  width: 450px;
+  padding-top:5px;
+  border-style:solid;
+  border-width:1px;
+  padding-left:3px;
+  padding-bottom:10px;
+  word-wrap: break-word;border: 1px solid;}
 
-#cench1 {float: right;
-    width: 35%;
-    height: 50%;
-    padding: 80px;}
+#cench1 {width: 400px;
+    height: 545px; 
+    padding-right: 0px;
+border: 1px solid rgb(0, 0, 0);
+}
 
-#cench2 {float: left;
-        width: 35%;
-        height: 50%;
-        padding: 60px;}
+#musicvideo {position: relative;}
