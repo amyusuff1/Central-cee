@@ -63,7 +63,7 @@ CSS - I ran my css code and I had no errors using the official jigsaw validator.
 - On the music video page I am still trying to play with the code and work out how I can wrap the text arround the embedded video at the moment it doesnt alow me to adjust the screen.
 
 ## Deployment
-Go to GitHub repository , settings then to GitHub Pages then deploy from main branch then save.
+Go to GitHub repository , settings then to GitHub Pages then deploy from main branch then save
 
 The live link can be found here - https://amyusuff1.github.io/Central-cee/
 
